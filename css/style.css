@@ -747,7 +747,7 @@ ol {
   border-radius: 10px;
   box-sizing: border-box;
 }
-.hero__item .card a:nth-child(1) {
+.hero__item .card:nth-child(1) {
   background: url("../images/rirekishoWeb.png") no-repeat center;
   background-size: cover;
 }
