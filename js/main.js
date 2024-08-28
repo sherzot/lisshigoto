@@ -1,10 +1,3 @@
-/*  ---------------------------------------------------
-    Template Name: Rirekishou(Rsume)
-  Description:  Connect and login in shigotonavi
-  Author: MUSURMONOV SHERZOT
-  Author URI: https://github.com/sherzot
-  Created: Rirekishou/SHigotonavi
----------------------------------------------------------  */
 
 'use strict';
 
