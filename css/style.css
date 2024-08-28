@@ -742,7 +742,7 @@ ol {
   height: 430px;
   margin: 20px 0px 20px 0px;
   padding: 0px;
-  background: url("../images/JobSearch.png") no-repeat center;
+  background: url("../images/job.png") no-repeat center;
   background-size: cover;
   border-radius: 10px;
   box-sizing: border-box;
@@ -751,7 +751,7 @@ ol {
 .hero__item .card:hover{
  transform: scale(1.10);
 }
-.hero__item .header-card .card:nth-child(1) {
+.hero__item .card:nth-child(2) {
   background: url("../images/rirekishoWeb.png") no-repeat center;
   background-size: cover;
 }
@@ -3263,6 +3263,7 @@ ol {
   }
   .card .card-body p {
 	font-size: 12px;
+  bottom: 65px;
   }
   .hero__search {
     margin-bottom: 30px;
@@ -3600,7 +3601,7 @@ ol {
     bottom: 5px;
   }
   .card .card-body p {
-    position: absolute;
-    bottom: 30px;
+    bottom: 40px;
+    padding: 5px;
   }
 }
