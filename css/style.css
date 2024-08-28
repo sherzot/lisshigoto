@@ -3611,4 +3611,7 @@ ol {
     background: url("../images/rirekishoWeb.png") no-repeat center;
     background-size: contain;
   }
+  .faq{
+    display: block;
+  }
 }
