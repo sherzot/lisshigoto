@@ -749,7 +749,7 @@ ol {
   transition: all 1s;
 }
 .hero__item .card:hover{
- transform: scale(1);
+ transform: scale(1.10);
 }
 .hero__item .header-card .card:nth-child(1) {
   background: url("../images/rirekishoWeb.png") no-repeat center;
