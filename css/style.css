@@ -817,8 +817,8 @@ ol {
   position: absolute;
   left: 0;
   width: 100%;
-  padding: 0 20px;
-  bottom: 20px;
+  padding: 0;
+  bottom: 1px;
   text-align: center;
 }
 
