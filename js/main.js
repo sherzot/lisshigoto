@@ -58,7 +58,7 @@
     $(".categories__slider").owlCarousel({
         loop: true,
         margin: 0,
-        items: 4,
+        items: 2,
         dots: false,
         nav: true,
         navText: ["<span class='fa fa-angle-left'><span/>", "<span class='fa fa-angle-right'><span/>"],
@@ -70,7 +70,7 @@
         responsive: {
 
             0: {
-                items: 1,
+                items: 1.5,
             },
 
             480: {

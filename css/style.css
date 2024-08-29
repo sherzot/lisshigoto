@@ -1015,6 +1015,15 @@ ol {
   color: #252525;
   font-weight: 700;
 }
+/* CLICK */
+.click .faq-button{
+  display: block;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+/* CLICK */
 /* FAQ */
 .faq{
   display: flex;
@@ -3338,6 +3347,9 @@ ol {
   .hero__search__phone {
     float: left;
     margin-top: 30px;
+  }
+  .categories__slider.owl-carousel{
+    overflow: scroll;
   }
   .categories__slider.owl-carousel .owl-nav {
     text-align: center;
