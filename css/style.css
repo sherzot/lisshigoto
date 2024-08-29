@@ -1022,6 +1022,10 @@ ol {
 .faq .featured__item2{
   width: 50%;
   font-weight: normal;
+  padding-right: 50px;
+}
+.featured__item2 h6{
+  padding: 10px;
 }
 .faq #accordion{
   width: 50%;
@@ -1029,6 +1033,24 @@ ol {
 .faq #accordion .card-body{
   padding: 15px;
   box-sizing: border-box;
+}
+.faq-button{
+  background-color: #014FD7; 
+  color: #fff; 
+  padding: 15px; 
+  cursor: pointer; 
+  width: 350px; 
+  border-radius: 10px; 
+  font-weight: 700; 
+  margin-top: 20px;
+  transition: all 0.5s;
+}
+.faq-button:hover{
+  background-color: #3679ec; 
+}
+.faq-button label{
+  color: #ffdd00; 
+  font-weight: 800;
 }
 /* FAQ */
 /*---------------------
@@ -3693,12 +3715,15 @@ ol {
     box-sizing: border-box;
   }
   .faq #accordion h5{
-    width: 250px;
-    font-weight: 400;
+    width: 350px;
+    font-weight: 600;
+    position: relative;
   }
   .faq #accordion h5 .icon-btn{
-    padding-left: 0px;
     font-size: 20px;
+    position: absolute;
+    top: 25px;
+    right: 50px;
   }
   
 }
