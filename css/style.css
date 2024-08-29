@@ -740,10 +740,10 @@ ol {
   padding: 0px;
 }
 .hero__item .card {
-  width: 550px;
+  width: 530px;
   height: 430px;
-  margin: 20px 0px 20px 0px;
-  padding: 0px;
+  margin: 20px 10px 20px 0px;
+  padding: 10px;
   background: url("../images/job.png") no-repeat center;
   background-size: cover;
   border-radius: 10px;
@@ -758,7 +758,7 @@ ol {
   background-size: cover;
 }
 .card .card-body {
-  padding: 10px;
+  padding: 0px;
   position: relative;
   box-sizing: border-box;
 }
@@ -776,6 +776,7 @@ ol {
   font-size: large;
 }
 .card .card-body .btn {
+  width: 100%;
   border-radius: 10px;
   font-weight: 900;
   position: absolute;
@@ -3612,13 +3613,16 @@ ol {
     width: 100%;
     height: 200px;
   }
+  .card .card-body{
+    padding: 0px;
+  }
   .card .card-body .btn {
-    padding: 6px;
+    padding: 8px;
     font-weight: 600;
     bottom: 5px;
   }
   .card .card-body p {
-    bottom: 45px;
+    bottom: 50px;
     padding: 5px;
   }
   .hero__item .card:nth-child(2) {
@@ -3643,4 +3647,13 @@ ol {
     padding: 15px;
     box-sizing: border-box;
   }
+  .faq #accordion h5{
+    width: 250px;
+    font-weight: 400;
+  }
+  .faq #accordion h5 .icon-btn{
+    padding-left: 0px;
+    font-size: 20px;
+  }
+  
 }
