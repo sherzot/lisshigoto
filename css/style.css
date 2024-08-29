@@ -32,7 +32,9 @@
 html,
 body {
   height: 100%;
-  font-family: "Cairo", sans-serif;
+  font-family: "Zen Antique Soft", serif;
+  font-weight: 400;
+  font-style: normal;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
 }
@@ -985,6 +987,7 @@ ol {
 }
 
 .featured__item__text {
+  font-family: "Zen Antique Soft", serif;
   text-align: center;
   padding-top: 15px;
 }
@@ -1001,7 +1004,18 @@ ol {
   color: #252525;
   font-weight: 700;
 }
-
+/* FAQ */
+.faq{
+  display: flex;
+}
+.faq .featured__item2{
+  width: 50%;
+  font-weight: normal;
+}
+.faq #accordion{
+  width: 50%;
+}
+/* FAQ */
 /*---------------------
   Latest Product
 -----------------------*/
@@ -3613,5 +3627,20 @@ ol {
   }
   .faq{
     display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .faq .featured__item2{
+    width: 100%;
+    padding: 20px;
+  }
+  .faq #accordion{
+    width: 100%;
+    padding: 20px;
+  }
+  .faq #accordion .card-body{
+    font-size: 13px;
+    padding: 15px;
+    box-sizing: border-box;
   }
 }
