@@ -1036,7 +1036,6 @@ ol {
 }
 .faq-button{
   background-color: #014FD7; 
-  color: #fff; 
   padding: 15px; 
   cursor: pointer; 
   width: 350px; 
@@ -1044,9 +1043,15 @@ ol {
   font-weight: 700; 
   margin-top: 20px;
   transition: all 0.5s;
+  
 }
 .faq-button:hover{
   background-color: #3679ec; 
+}
+.faq-button a{
+  display: block;
+  color: #fff;
+  text-decoration: none;
 }
 .faq-button label{
   color: #ffdd00; 
