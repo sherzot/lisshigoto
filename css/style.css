@@ -1026,6 +1026,10 @@ ol {
 .faq #accordion{
   width: 50%;
 }
+.faq #accordion .card-body{
+  padding: 15px;
+  box-sizing: border-box;
+}
 /* FAQ */
 /*---------------------
   Latest Product
