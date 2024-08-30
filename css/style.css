@@ -3044,11 +3044,15 @@ ol {
 #searchPlaceholder::placeholder {
   font-size: 13px;
 }
+
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 1200px) {
   .container {
     max-width: 1170px;
+  }
+  .hero__categories ul li a {
+    font-size: 14px;
   }
 }
 
@@ -3304,6 +3308,17 @@ ol {
   }
   .over_hid {
     overflow: hidden;
+  }
+  .faq{
+    display: block;
+    width: 100%;
+    padding: 30px;
+  }
+  .faq .featured__item2{
+    width: 100%;
+  }
+  .faq #accordion{
+    width: 100%;
   }
 }
 
@@ -3618,6 +3633,17 @@ ol {
   .hero__item {
     display: block;
   }
+  .faq{
+    display: block;
+    width: 100%;
+    padding: 30px;
+  }
+  .faq .featured__item2{
+    width: 100%;
+  }
+  .faq #accordion{
+    width: 100%;
+  }
 }
 
 /* Small Device = 320px */
@@ -3753,4 +3779,14 @@ ol {
     right: 50px;
   }
   
+}
+@media only screen and (max-width: 380px){
+  .card .card-body .btn {
+    bottom: 60px;
+  }
+  .faq{
+    display: block;
+    width: 100%;
+    padding: 0px;
+  }
 }
