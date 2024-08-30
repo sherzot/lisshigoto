@@ -3618,7 +3618,7 @@ ol {
     height: 200px;
   }
   #reqresh1 {
-    padding: 0px 0;
+    padding: 0px;
     font-weight: 900;
     font-size: 38px;
   }
@@ -3636,7 +3636,7 @@ ol {
   .faq{
     display: block;
     width: 100%;
-    padding: 30px;
+    padding: 20px;
   }
   .faq .featured__item2{
     width: 100%;
@@ -3756,11 +3756,11 @@ ol {
   }
   .faq .featured__item2{
     width: 100%;
-    padding: 20px;
+    padding: 0px;
   }
   .faq #accordion{
     width: 100%;
-    padding: 20px;
+    padding: 0px;
   }
   .faq #accordion .card-body{
     font-size: 13px;
@@ -3787,6 +3787,6 @@ ol {
   .faq{
     display: block;
     width: 100%;
-    padding: 0px;
+    padding: 10px;
   }
 }
