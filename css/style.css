@@ -597,7 +597,7 @@ ol {
 }
 
 .hero__categories__all {
-  background: #3cc032;
+  background: #9c9c9c;
   position: relative;
   padding: 10px 25px 10px 40px;
   cursor: pointer;
@@ -3330,9 +3330,13 @@ ol {
   .card .card-body {
     padding: 5px;
   }
+  .card .card-body .btn{
+    bottom: 40px;
+  }
   .card .card-body p {
+    width: 100%;
     font-size: 12px;
-    bottom: 65px;
+    bottom: 0;
   }
   .hero__search {
     margin-bottom: 30px;
@@ -3708,7 +3712,7 @@ ol {
   .card .card-body .btn {
     padding: 8px;
     font-weight: 600;
-    bottom: 40px;
+    bottom: 35px;
   }
   .card .card-body p {
     width: 100%;
