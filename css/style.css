@@ -1088,7 +1088,12 @@ ol {
 -----------------------*/
 
 /* xaxaax */
-
+.latest-prdouct__slider__item a{
+  transition: all 0.5s;
+}
+.latest-prdouct__slider__item a:hover{
+  transform: scale(1.05);
+}
 .latest-product__text h4 {
   font-weight: 700;
   color: #1c1c1c;
