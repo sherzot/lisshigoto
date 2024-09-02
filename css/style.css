@@ -753,7 +753,7 @@ ol {
   display: flex;
   margin: auto;
   align-items: center;
-  padding: 0px;
+  padding: 50px 0;
 }
 .hero__item .card {
   width: 530px;
@@ -780,6 +780,7 @@ ol {
   box-sizing: border-box;
 }
 .card .card-body p {
+  width: 100%;
   position: absolute;
   bottom: 0;
   background-color: #edbd0eb5;
@@ -3769,6 +3770,9 @@ ol {
   .hero__categories ul{
     width: 320px;
   }
+  .hero__item {
+    padding: 10px;
+  }
   .hero__item .card {
     background-size: contain;
     max-width: 476px;
@@ -3788,9 +3792,9 @@ ol {
     bottom: 0;
     padding: 5px;
   }
-  .hero__item .card:nth-child() {
-    background: url("../images/CardRirekisho.png") no-repeat center;
-    background-size: cover;
+  .hero__item .card:nth-child(4) {
+    padding: 10px;
+    background-size: contain;
   }
   .faq{
     display: block;
