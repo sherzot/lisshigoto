@@ -1,0 +1,930 @@
+#page-custom-css-id .content-15{box-shadow:0px -1px 10px rgba(0,0,0,0.2);position:fixed;right:0;bottom:0;left:0;z-index:100}#page-custom-css-id .theme-fo-base .foot{margin-bottom:110px}#page-custom-css-id .content-15 .col.col-1{padding:0;display:flex;align-items:center;justify-content:center}#page-custom-css-id .content-15 .row.row-1 .col.col-1 .component.image{max-width:387px}#page-custom-css-id .content-15 .row.row-1 .col.col-1 .component.text{display:none;padding:0}#page-custom-css-id .theme-fo-base .wrapper .contents .content-15 .col .component.button{width:100%;max-width:315px;margin:0 0 0 40px}#page-custom-css-id .content-15 .button .button-cont a.size-m{border:3px solid #48597E;border-radius:40px;display:block;font-size:20px;width:100%;margin:0 auto;padding:9px}@media (max-width: 769px){#page-custom-css-id .theme-fo-base .foot{margin-bottom:74px}#page-custom-css-id .theme-fo-base .wrapper.none .contents .content-15 .inner{padding:10px}#page-custom-css-id .content-15 .row .col{display:flex !important}#page-custom-css-id .content-15 .row.row-1 .col.col-1 .component.image{display:none}#page-custom-css-id .content-15 .row.row-1 .col.col-1 .component.text{display:block;font-size:18px}#page-custom-css-id .content-15 .component.text em.strong{display:inline-block;text-align:left}#page-custom-css-id .theme-fo-base .wrapper .contents .content-15 .col .component.button{max-width:250px;margin:0 0 0 2.67022697%}#page-custom-css-id .content-15 .button .button-cont a.size-m{font-size:18px}}@media (max-width: 528px){#page-custom-css-id .theme-fo-base .foot{margin-bottom:7.41666667vh}#page-custom-css-id .content-15 .row.row-1 .col.col-1 .component.text{font-size:3.3vw}#page-custom-css-id .content-15 .button .button-cont a.size-m{font-size:3.3vw}}
+.contents .content-1 {
+  /* sample */
+}
+
+.contents .content-1 .row.row-1 {
+  /* sample */
+}
+.contents .content-1 .row.row-1 .col.col-1 {
+  /* sample */
+}
+.contents .content-1 .row.row-1 .col.col-1 .component.rich-heading {
+  /* sample */
+}
+.contents .content-1 .row.row-1 .col.col-1 .component.text {
+  /* sample */
+}
+.contents .content-1 .row.row-1 .col.col-1 .component.text {
+  /* sample */
+}
+.contents .content-1 .row.row-1 .col.col-1 .component.text {
+  /* sample */
+}
+.contents .content-1 .row.row-1 .col.col-1 .component.button {
+  /* sample */
+}
+.contents .content-1 .row.row-1 .col.col-1 .component.image {
+  /* sample */
+}
+.contents .content-1 .row.row-1 .col.col-2 {
+  /* sample */
+}
+.contents .content-1 .row.row-1 .col.col-2 .component.image {
+  /* sample */
+}
+
+.contents .content-2 {
+  /* sample */
+}
+
+.contents .content-2 .row.row-1 {
+  /* sample */
+}
+.contents .content-2 .row.row-1 .col.col-1 {
+  /* sample */
+}
+.contents .content-2 .row.row-1 .col.col-1 .component.rich-heading {
+  /* sample */
+}
+.contents .content-2 .row.row-1 .col.col-1 .component.rich-heading {
+  /* sample */
+}
+.contents .content-2 .row.row-1 .col.col-1 .component.richtext {
+  /* sample */
+}
+.contents .content-2 .row.row-1 .col.col-1 .component.image {
+  /* sample */
+}
+
+.contents .content-3 {
+  /* sample */
+}
+
+.contents .content-3 .row.row-1 {
+  /* sample */
+}
+.contents .content-3 .row.row-1 .col.col-1 {
+  /* sample */
+}
+.contents .content-3 .row.row-1 .col.col-1 .component.rich-heading {
+  /* sample */
+}
+
+.contents .content-3 .row.row-2 {
+  /* sample */
+}
+.contents .content-3 .row.row-2 .col.col-1 {
+  /* sample */
+}
+.contents .content-3 .row.row-2 .col.col-1 .component.image {
+  /* sample */
+}
+.contents .content-3 .row.row-2 .col.col-1 .component.text {
+  /* sample */
+}
+.contents .content-3 .row.row-2 .col.col-1 .component.button {
+  /* sample */
+}
+.contents .content-3 .row.row-2 .col.col-2 {
+  /* sample */
+}
+.contents .content-3 .row.row-2 .col.col-2 .component.image {
+  /* sample */
+}
+.contents .content-3 .row.row-2 .col.col-2 .component.text {
+  /* sample */
+}
+.contents .content-3 .row.row-2 .col.col-2 .component.button {
+  /* sample */
+}
+.contents .content-3 .row.row-2 .col.col-3 {
+  /* sample */
+}
+.contents .content-3 .row.row-2 .col.col-3 .component.image {
+  /* sample */
+}
+.contents .content-3 .row.row-2 .col.col-3 .component.text {
+  /* sample */
+}
+.contents .content-3 .row.row-2 .col.col-3 .component.button {
+  /* sample */
+}
+
+.contents .content-4 {
+  /* sample */
+}
+
+.contents .content-4 .row.row-1 {
+  /* sample */
+}
+.contents .content-4 .row.row-1 .col.col-1 {
+  /* sample */
+}
+.contents .content-4 .row.row-1 .col.col-1 .component.rich-heading {
+  /* sample */
+}
+
+.contents .content-4 .row.row-2 {
+  /* sample */
+}
+.contents .content-4 .row.row-2 .col.col-1 {
+  /* sample */
+}
+.contents .content-4 .row.row-2 .col.col-1 .component.rich-heading {
+  /* sample */
+}
+.contents .content-4 .row.row-2 .col.col-1 .component.text {
+  /* sample */
+}
+.contents .content-4 .row.row-2 .col.col-1 .component.richtext {
+  /* sample */
+}
+.contents .content-4 .row.row-2 .col.col-2 {
+  /* sample */
+}
+.contents .content-4 .row.row-2 .col.col-2 .component.image {
+  /* sample */
+}
+
+.contents .content-4 .row.row-3 {
+  /* sample */
+}
+.contents .content-4 .row.row-3 .col.col-1 {
+  /* sample */
+}
+.contents .content-4 .row.row-3 .col.col-1 .component.rich-heading {
+  /* sample */
+}
+.contents .content-4 .row.row-3 .col.col-1 .component.text {
+  /* sample */
+}
+.contents .content-4 .row.row-3 .col.col-2 {
+  /* sample */
+}
+.contents .content-4 .row.row-3 .col.col-2 .component.image {
+  /* sample */
+}
+
+.contents .content-4 .row.row-4 {
+  /* sample */
+}
+.contents .content-4 .row.row-4 .col.col-1 {
+  /* sample */
+}
+.contents .content-4 .row.row-4 .col.col-1 .component.rich-heading {
+  /* sample */
+}
+.contents .content-4 .row.row-4 .col.col-1 .component.text {
+  /* sample */
+}
+.contents .content-4 .row.row-4 .col.col-2 {
+  /* sample */
+}
+.contents .content-4 .row.row-4 .col.col-2 .component.image {
+  /* sample */
+}
+
+.contents .content-5 {
+  /* sample */
+}
+
+.contents .content-5 .row.row-1 {
+  /* sample */
+}
+.contents .content-5 .row.row-1 .col.col-1 {
+  /* sample */
+}
+.contents .content-5 .row.row-1 .col.col-1 .component.rich-heading {
+  /* sample */
+}
+
+.contents .content-5 .row.row-2 {
+  /* sample */
+}
+.contents .content-5 .row.row-2 .col.col-1 {
+  /* sample */
+}
+.contents .content-5 .row.row-2 .col.col-1 .component.text {
+  /* sample */
+}
+.contents .content-5 .row.row-2 .col.col-1 .component.image {
+  /* sample */
+}
+.contents .content-5 .row.row-2 .col.col-1 .component.button {
+  /* sample */
+}
+.contents .content-5 .row.row-2 .col.col-2 {
+  /* sample */
+}
+.contents .content-5 .row.row-2 .col.col-2 .component.text {
+  /* sample */
+}
+.contents .content-5 .row.row-2 .col.col-2 .component.image {
+  /* sample */
+}
+.contents .content-5 .row.row-2 .col.col-2 .component.button {
+  /* sample */
+}
+.contents .content-5 .row.row-2 .col.col-3 {
+  /* sample */
+}
+.contents .content-5 .row.row-2 .col.col-3 .component.text {
+  /* sample */
+}
+.contents .content-5 .row.row-2 .col.col-3 .component.image {
+  /* sample */
+}
+.contents .content-5 .row.row-2 .col.col-3 .component.button {
+  /* sample */
+}
+
+.contents .content-5 .row.row-3 {
+  /* sample */
+}
+.contents .content-5 .row.row-3 .col.col-1 {
+  /* sample */
+}
+.contents .content-5 .row.row-3 .col.col-1 .component.richtext {
+  /* sample */
+}
+
+.contents .content-6 {
+  /* sample */
+}
+
+.contents .content-6 .row.row-1 {
+  /* sample */
+}
+.contents .content-6 .row.row-1 .col.col-1 {
+  /* sample */
+}
+.contents .content-6 .row.row-1 .col.col-1 .component.rich-heading {
+  /* sample */
+}
+.contents .content-6 .row.row-1 .col.col-1 .component.button {
+  /* sample */
+}
+
+.contents .content-7 {
+  /* sample */
+}
+
+.contents .content-7 .row.row-1 {
+  /* sample */
+}
+.contents .content-7 .row.row-1 .col.col-1 {
+  /* sample */
+}
+.contents .content-7 .row.row-1 .col.col-1 .component.rich-heading {
+  /* sample */
+}
+
+.contents .content-7 .row.row-2 {
+  /* sample */
+}
+.contents .content-7 .row.row-2 .col.col-1 {
+  /* sample */
+}
+.contents .content-7 .row.row-2 .col.col-1 .component.image {
+  /* sample */
+}
+.contents .content-7 .row.row-2 .col.col-1 .component.text {
+  /* sample */
+}
+.contents .content-7 .row.row-2 .col.col-1 .component.richtext {
+  /* sample */
+}
+.contents .content-7 .row.row-2 .col.col-2 {
+  /* sample */
+}
+.contents .content-7 .row.row-2 .col.col-2 .component.image {
+  /* sample */
+}
+.contents .content-7 .row.row-2 .col.col-2 .component.text {
+  /* sample */
+}
+.contents .content-7 .row.row-2 .col.col-2 .component.richtext {
+  /* sample */
+}
+.contents .content-7 .row.row-2 .col.col-3 {
+  /* sample */
+}
+.contents .content-7 .row.row-2 .col.col-3 .component.image {
+  /* sample */
+}
+.contents .content-7 .row.row-2 .col.col-3 .component.text {
+  /* sample */
+}
+.contents .content-7 .row.row-2 .col.col-3 .component.richtext {
+  /* sample */
+}
+.contents .content-7 .row.row-2 .col.col-4 {
+  /* sample */
+}
+.contents .content-7 .row.row-2 .col.col-4 .component.image {
+  /* sample */
+}
+.contents .content-7 .row.row-2 .col.col-4 .component.text {
+  /* sample */
+}
+.contents .content-7 .row.row-2 .col.col-4 .component.richtext {
+  /* sample */
+}
+
+.contents .content-8 {
+  /* sample */
+}
+
+.contents .content-8 .row.row-1 {
+  /* sample */
+}
+.contents .content-8 .row.row-1 .col.col-1 {
+  /* sample */
+}
+.contents .content-8 .row.row-1 .col.col-1 .component.rich-heading {
+  /* sample */
+}
+
+.contents .content-8 .row.row-2 {
+  /* sample */
+}
+.contents .content-8 .row.row-2 .col.col-1 {
+  /* sample */
+}
+.contents .content-8 .row.row-2 .col.col-1 .component.image {
+  /* sample */
+}
+.contents .content-8 .row.row-2 .col.col-1 .component.rich-heading {
+  /* sample */
+}
+.contents .content-8 .row.row-2 .col.col-1 .component.text {
+  /* sample */
+}
+.contents .content-8 .row.row-2 .col.col-2 {
+  /* sample */
+}
+.contents .content-8 .row.row-2 .col.col-2 .component.image {
+  /* sample */
+}
+.contents .content-8 .row.row-2 .col.col-2 .component.rich-heading {
+  /* sample */
+}
+.contents .content-8 .row.row-2 .col.col-2 .component.text {
+  /* sample */
+}
+
+.contents .content-8 .row.row-3 {
+  /* sample */
+}
+.contents .content-8 .row.row-3 .col.col-1 {
+  /* sample */
+}
+.contents .content-8 .row.row-3 .col.col-1 .component.image {
+  /* sample */
+}
+.contents .content-8 .row.row-3 .col.col-1 .component.rich-heading {
+  /* sample */
+}
+.contents .content-8 .row.row-3 .col.col-1 .component.text {
+  /* sample */
+}
+.contents .content-8 .row.row-3 .col.col-2 {
+  /* sample */
+}
+.contents .content-8 .row.row-3 .col.col-2 .component.image {
+  /* sample */
+}
+.contents .content-8 .row.row-3 .col.col-2 .component.rich-heading {
+  /* sample */
+}
+.contents .content-8 .row.row-3 .col.col-2 .component.text {
+  /* sample */
+}
+.contents .content-8 .row.row-3 .col.col-2 .component.text {
+  /* sample */
+}
+
+.contents .content-9 {
+  /* sample */
+}
+
+.contents .content-9 .row.row-1 {
+  /* sample */
+}
+.contents .content-9 .row.row-1 .col.col-1 {
+  /* sample */
+}
+.contents .content-9 .row.row-1 .col.col-1 .component.rich-heading {
+  /* sample */
+}
+.contents .content-9 .row.row-1 .col.col-1 .component.text {
+  /* sample */
+}
+
+.contents .content-9 .row.row-2 {
+  /* sample */
+}
+.contents .content-9 .row.row-2 .col.col-1 {
+  /* sample */
+}
+.contents .content-9 .row.row-2 .col.col-1 .component.image {
+  /* sample */
+}
+.contents .content-9 .row.row-2 .col.col-2 {
+  /* sample */
+}
+.contents .content-9 .row.row-2 .col.col-2 .component.image {
+  /* sample */
+}
+
+.contents .content-10 {
+  /* sample */
+}
+
+.contents .content-10 .row.row-1 {
+  /* sample */
+}
+.contents .content-10 .row.row-1 .col.col-1 {
+  /* sample */
+}
+.contents .content-10 .row.row-1 .col.col-1 .component.rich-heading {
+  /* sample */
+}
+.contents .content-10 .row.row-1 .col.col-1 .component.button {
+  /* sample */
+}
+
+.contents .content-11 {
+  /* sample */
+}
+
+.contents .content-11 .row.row-1 {
+  /* sample */
+}
+.contents .content-11 .row.row-1 .col.col-1 {
+  /* sample */
+}
+.contents .content-11 .row.row-1 .col.col-1 .component.rich-heading {
+  /* sample */
+}
+.contents .content-11 .row.row-1 .col.col-1 .component.cta {
+  /* sample */
+}
+
+.contents .content-12 {
+  /* sample */
+}
+
+.contents .content-12 .row.row-1 {
+  /* sample */
+}
+.contents .content-12 .row.row-1 .col.col-1 {
+  /* sample */
+}
+.contents .content-12 .row.row-1 .col.col-1 .component.rich-heading {
+  /* sample */
+}
+
+.contents .content-12 .row.row-2 {
+  /* sample */
+}
+.contents .content-12 .row.row-2 .col.col-1 {
+  /* sample */
+}
+.contents .content-12 .row.row-2 .col.col-1 .component.image {
+  /* sample */
+}
+.contents .content-12 .row.row-2 .col.col-1 .component.image {
+  /* sample */
+}
+.contents .content-12 .row.row-2 .col.col-1 .component.richtext {
+  /* sample */
+}
+.contents .content-12 .row.row-2 .col.col-1 .component.button {
+  /* sample */
+}
+.contents .content-12 .row.row-2 .col.col-2 {
+  /* sample */
+}
+.contents .content-12 .row.row-2 .col.col-2 .component.image {
+  /* sample */
+}
+.contents .content-12 .row.row-2 .col.col-2 .component.image {
+  /* sample */
+}
+.contents .content-12 .row.row-2 .col.col-2 .component.richtext {
+  /* sample */
+}
+.contents .content-12 .row.row-2 .col.col-2 .component.button {
+  /* sample */
+}
+.contents .content-12 .row.row-2 .col.col-3 {
+  /* sample */
+}
+.contents .content-12 .row.row-2 .col.col-3 .component.image {
+  /* sample */
+}
+.contents .content-12 .row.row-2 .col.col-3 .component.image {
+  /* sample */
+}
+.contents .content-12 .row.row-2 .col.col-3 .component.richtext {
+  /* sample */
+}
+.contents .content-12 .row.row-2 .col.col-3 .component.button {
+  /* sample */
+}
+
+.contents .content-12 .row.row-3 {
+  /* sample */
+}
+.contents .content-12 .row.row-3 .col.col-1 {
+  /* sample */
+}
+
+.contents .content-13 {
+  /* sample */
+}
+
+.contents .content-13 .row.row-1 {
+  /* sample */
+}
+.contents .content-13 .row.row-1 .col.col-1 {
+  /* sample */
+}
+.contents .content-13 .row.row-1 .col.col-1 .component.rich-heading {
+  /* sample */
+}
+.contents .content-13 .row.row-1 .col.col-1 .component.cta {
+  /* sample */
+}
+
+.contents .content-14 {
+  /* sample */
+}
+
+.contents .content-14 .row.row-1 {
+  /* sample */
+}
+.contents .content-14 .row.row-1 .col.col-1 {
+  /* sample */
+}
+.contents .content-14 .row.row-1 .col.col-1 .component.cta {
+  /* sample */
+}
+
+.contents .content-15 {
+  /* sample */
+}
+
+.contents .content-15 .row.row-1 {
+  /* sample */
+}
+.contents .content-15 .row.row-1 .col.col-1 {
+  /* sample */
+}
+.contents .content-15 .row.row-1 .col.col-1 .component.image {
+  /* sample */
+}
+.contents .content-15 .row.row-1 .col.col-1 .component.text {
+  /* sample */
+}
+.contents .content-15 .row.row-1 .col.col-1 .component.button {
+  /* sample */
+}
+
+.contents .content-16 {
+  /* sample */
+}
+
+.contents .content-16 .row.row-1 {
+  /* sample */
+}
+.contents .content-16 .row.row-1 .col.col-1 {
+  /* sample */
+}
+.contents .content-16 .row.row-1 .col.col-1 .component.cta {
+  /* sample */
+}
+
+.side {
+  /* sample */
+}
+
+.side {
+  /* sample */
+}
+
+.side .component.rich-heading {
+  /* sample */
+}
+
+.side .component.blog-ranking {
+  /* sample */
+}
+
+.side .component.rich-heading {
+  /* sample */
+}
+
+.side .component.category {
+  /* sample */
+}
+
+.side .component.rich-heading {
+  /* sample */
+}
+
+.side .component.tag_cloud {
+  /* sample */
+}
+
+.side .component.social-button {
+  /* sample */
+}
+
+.side {
+  /* sample */
+}
+
+.side {
+  /* sample */
+}
+
+.fixed-side .row.row-1 {
+  /* sample */
+}
+.fixed-side .row.row-1 .col.col-1 {
+  /* sample */
+}
+
+.foot {
+  /* sample */
+}
+
+.foot .row.row-1 {
+  /* sample */
+}
+.foot .row.row-1 .col.col-1 {
+  /* sample */
+}
+.foot .row.row-1 .col.col-1 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-1 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-1 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-1 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-1 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-1 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-1 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-1 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-1 .component.image {
+  /* sample */
+}
+.foot .row.row-1 .col.col-1 .component.text {
+  /* sample */
+}
+.foot .row.row-1 .col.col-2 {
+  /* sample */
+}
+.foot .row.row-1 .col.col-2 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-2 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-2 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-2 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-2 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-2 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-2 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-2 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-2 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-2 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-2 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-2 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-2 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-3 {
+  /* sample */
+}
+.foot .row.row-1 .col.col-3 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-3 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-3 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-3 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-3 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-3 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-3 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-3 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-3 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-3 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-3 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-3 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-3 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-3 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-3 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-4 {
+  /* sample */
+}
+.foot .row.row-1 .col.col-4 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-4 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-4 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-4 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-4 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-4 .component.border {
+  /* sample */
+}
+.foot .row.row-1 .col.col-4 .component.richtext {
+  /* sample */
+}
+.foot .row.row-1 .col.col-4 .component.image {
+  /* sample */
+}
+.foot .row.row-1 .col.col-4 .component.button {
+  /* sample */
+}
+.foot .row.row-1 .col.col-4 .component.border {
+  /* sample */
+}
+
+.foot .row.row-2 {
+  /* sample */
+}
+.foot .row.row-2 .col.col-1 {
+  /* sample */
+}
+.foot .row.row-2 .col.col-1 .component.border {
+  /* sample */
+}
+
+.foot .row.row-3 {
+  /* sample */
+}
+.foot .row.row-3 .col.col-1 {
+  /* sample */
+}
+.foot .row.row-3 .col.col-1 .component.list {
+  /* sample */
+}
+.foot .row.row-3 .col.col-1 .component.script-comp {
+  /* sample */
+}
+
+.foot .row.row-4 {
+  /* sample */
+}
+.foot .row.row-4 .col.col-1 {
+  /* sample */
+}
+.foot .row.row-4 .col.col-1 .component.script-comp {
+  /* sample */
+}
+
+.foot .row.row-5 {
+  /* sample */
+}
+.foot .row.row-5 .col.col-1 {
+  /* sample */
+}
+.foot .row.row-5 .col.col-1 .component.list {
+  /* sample */
+}
+.foot .row.row-5 .col.col-1 .component.border {
+  /* sample */
+}
+.foot .row.row-5 .col.col-1 .component.script-comp {
+  /* sample */
+}
+.foot .row.row-5 .col.col-2 {
+  /* sample */
+}
+.foot .row.row-5 .col.col-2 .component.image {
+  /* sample */
+}
+.foot .row.row-5 .col.col-2 .component.text {
+  /* sample */
+}
+
+.header, .main-visual {
+  /* sample */
+}
+
+.header .row.row-1, .main-visual .row.row-1 {
+  /* sample */
+}
+.header .row.row-1 .col.col-1, .main-visual .row.row-1 .col.col-1 {
+  /* sample */
+}
+.header .row.row-1 .col.col-1 .component.rich-heading, .main-visual .row.row-1 .col.col-1 .component.rich-heading {
+  /* sample */
+}
+.header .row.row-1 .col.col-1 .component.button, .main-visual .row.row-1 .col.col-1 .component.button {
+  /* sample */
+}
+.header .row.row-1 .col.col-1 .component.image, .main-visual .row.row-1 .col.col-1 .component.image {
+  /* sample */
+}
+.header .row.row-1 .col.col-2, .main-visual .row.row-1 .col.col-2 {
+  /* sample */
+}
+.header .row.row-1 .col.col-2 .component.image, .main-visual .row.row-1 .col.col-2 .component.image {
+  /* sample */
+}
+
+.navi, .navi-001-01, .navi-002-01 {
+  /* sample */
+}
+
+.navi .row.row-1, .navi-001-01 .row.row-1, .navi-002-01 .row.row-1 {
+  /* sample */
+}
+.navi .row.row-1 .col.col-1, .navi-001-01 .row.row-1 .col.col-1, .navi-002-01 .row.row-1 .col.col-1 {
+  /* sample */
+}
+.navi .row.row-1 .col.col-1 .component.button, .navi-001-01 .row.row-1 .col.col-1 .component.button, .navi-002-01 .row.row-1 .col.col-1 .component.button {
+  /* sample */
+}
+.navi .row.row-1 .col.col-2, .navi-001-01 .row.row-1 .col.col-2, .navi-002-01 .row.row-1 .col.col-2 {
+  /* sample */
+}
+.navi .row.row-1 .col.col-2 .component.button, .navi-001-01 .row.row-1 .col.col-2 .component.button, .navi-002-01 .row.row-1 .col.col-2 .component.button {
+  /* sample */
+}
+.navi .row.row-1 .col.col-2 .component.button, .navi-001-01 .row.row-1 .col.col-2 .component.button, .navi-002-01 .row.row-1 .col.col-2 .component.button {
+  /* sample */
+}
