@@ -761,7 +761,7 @@ ol {
   margin: 20px 10px 20px 0px;
   padding: 30px 0 0 0;
   background: url("../images/job2.png") no-repeat center;
-  background-size: 100%;
+  background-size: contain;
   border-radius: 10px;
   border: navajowhite;
   box-sizing: border-box;
@@ -772,7 +772,7 @@ ol {
 }
 .hero__item .card:nth-child(2) {
   background: url("../images/CardRirekisho.png") no-repeat center;
-  background-size: 100%;
+  background-size: contain;
 }
 .card .card-body {
   padding: 0px;
@@ -1024,13 +1024,14 @@ ol {
   font-weight: 700;
 }
 /* CLICK */
+.click{
+  padding: 15px 20px;
+}
 .click .faq-button{
   display: block;
   margin: auto;
   align-items: center;
   justify-content: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
 }
 /* CLICK */
 /* FAQ */
@@ -1074,6 +1075,9 @@ ol {
 .faq-button label{
   color: #ffdd00; 
   font-weight: 800;
+}
+.featured__item__text a{
+  padding-top: 50px;
 }
 /* FAQ */
 /*---------------------
@@ -3671,7 +3675,7 @@ ol {
 
 /* Small Device = 320px */
 
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 550px) {
   .header{
     padding: 5px;
     height: 70px;
@@ -3700,7 +3704,15 @@ ol {
     padding: 5px;
   }
   .logo-hed img{
-    width: 80px;
+    width: 90px;
+  }
+  .hero__categories__all {
+    margin: auto;
+    align-items: center;
+    width: 380px;
+  }
+  .hero__categories ul{
+    width: 380px;
   }
   .hero__search__form form .hero__search__categories {
     display: none;
@@ -3752,10 +3764,10 @@ ol {
   .hero__categories__all {
     margin: auto;
     align-items: center;
-    width: 340px;
+    width: 320px;
   }
   .hero__categories ul{
-    width: 340px;
+    width: 320px;
   }
   .hero__item .card {
     background-size: contain;
@@ -3783,6 +3795,7 @@ ol {
   .faq{
     display: block;
     width: 100%;
+    padding: 20px;
     box-sizing: border-box;
   }
   .faq .featured__item2{
@@ -3795,11 +3808,11 @@ ol {
   }
   .faq #accordion .card-body{
     font-size: 13px;
-    padding: 15px;
+    padding: 10px;
     box-sizing: border-box;
   }
   .faq #accordion h5{
-    width: 350px;
+    width: 100%;
     font-weight: 600;
     position: relative;
   }
@@ -3808,8 +3821,20 @@ ol {
     position: absolute;
     top: 25px;
     right: 50px;
+    font-weight: 600;
   }
-  
+  .faq-button{
+    background-color: #007bff; 
+    padding: 15px; 
+    cursor: pointer; 
+    width: 100%; 
+    font-weight: 600;
+  }
+  .faq-button a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+  }
 }
 @media only screen and (max-width: 380px){
   .card .card-body .btn {
