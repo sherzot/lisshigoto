@@ -595,7 +595,9 @@ ol {
 .hero.hero-normal .hero__search {
   margin-bottom: 0;
 }
-
+.categories{
+  padding-top: 50px;
+}
 .hero__categories__all {
   margin: auto;
   align-items: center;
@@ -1056,7 +1058,7 @@ ol {
 }
 .faq-button{
   background-color: #007bff; 
-  padding: 15px; 
+  padding: 15px;
   cursor: pointer; 
   width: 350px; 
   border-radius: 10px; 
@@ -1085,10 +1087,7 @@ ol {
   Latest Product
 -----------------------*/
 
-/* .latest-product {
-  padding-top: 80px;
-  padding-bottom: 0;
-} */
+/* xaxaax */
 
 .latest-product__text h4 {
   font-weight: 700;
