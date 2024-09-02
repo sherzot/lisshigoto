@@ -1085,10 +1085,10 @@ ol {
   Latest Product
 -----------------------*/
 
-.latest-product {
+/* .latest-product {
   padding-top: 80px;
   padding-bottom: 0;
-}
+} */
 
 .latest-product__text h4 {
   font-weight: 700;
