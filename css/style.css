@@ -3807,8 +3807,8 @@ ol {
     padding: 0px;
   }
   .faq #accordion{
+    padding-top: 50px;
     width: 100%;
-    padding: 0px;
   }
   .faq #accordion .card-body{
     font-size: 13px;
