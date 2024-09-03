@@ -567,6 +567,10 @@ ol {
   Hero
 -----------------------*/
 .hero {
+  /* margin: auto; */
+  /* align-items: center; */
+  max-width: 1920px;
+  width: 100%;
   padding-bottom: 0px;
   background: url('../images/banner1.png') no-repeat center;
   background-size: cover;
@@ -749,18 +753,53 @@ ol {
   font-size: 14px;
   color: #6f6f6f;
 }
-
+.top-image{
+  width: 100%;
+  height: 280px;
+  background: url('../images/header-top.png') no-repeat center;
+  position: relative;
+}
+.top-image-text{
+  display: block;
+  width: 450px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  top: 100px;
+  right: 10px;
+  font-weight: 800;
+}
+.top-image-text h5{
+    font-size: 44px;
+    font-weight: 600;
+    color: #1c1c1c;
+}
+.top-image-text p{
+  font-size: 28px;
+  line-height: 1.5;
+  color: #2e2e2e;
+}
+.section-title1{
+  padding: 50px 0;
+  box-sizing: border-box;
+}
+.section-title1 h2{
+  font-weight: 600;
+  color: #1c1c1c;
+  text-align: right;
+}
 .hero__item {
+  width: 100%;
   height: auto;
   display: flex;
   margin: auto;
   align-items: center;
-  padding: 50px 0;
+  font-family: "Cairo", sans-serif;
 }
 .hero__item .card {
-  width: 530px;
-  height: 550px;
-  margin: 20px 10px 20px 0px;
+  width: 500px;
+  height: 400px;
+  margin: 10px 10px 20px 0px;
   padding: 30px 0 0 0;
   background: url("../images/job2.png") no-repeat center;
   background-size: contain;
@@ -776,19 +815,23 @@ ol {
   background: url("../images/CardRirekisho.png") no-repeat center;
   background-size: contain;
 }
+.hero__item .card:nth-child(4) {
+  background: url("../images/ejento.png") no-repeat center;
+  background-size: contain;
+}
 .card .card-body {
   padding: 0px;
   position: relative;
   box-sizing: border-box;
 }
-.card .card-body p {
+/* .card .card-body p {
   width: 100%;
   position: absolute;
   bottom: 0;
   background-color: #edbd0eb5;
   padding: 5px;
   font-weight: 400;
-}
+} */
 .card .card-body .card-title,
 .card-text {
   color: #000;
@@ -799,10 +842,10 @@ ol {
   width: 100%;
   border-radius: 10px;
   font-weight: 900;
-  font-size: 18px;
+  font-size: 16px;
   position: absolute;
-  bottom: 35px;
-  padding: 10px;
+  bottom: 1px;
+  padding: 15px 4px;
 }
 .card .card-body span {
   position: absolute;
@@ -3778,22 +3821,69 @@ ol {
   .hero__categories ul{
     width: 320px;
   }
+  .top-image{
+    width: 100%;
+    height: 220px;
+    background: url('../images/header-top.png') no-repeat center;
+    background-size: 100%;
+    position: relative;
+  }
+  .top-image-text{
+    display: block;
+    width: 210px;
+    height: auto;
+    margin: auto;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    box-sizing: border-box;
+    padding: 5px;
+    font-weight: 500;
+    line-height: 2;
+  }
+  .top-image-text h5{
+    font-size: 22px;
+    font-weight: 600;
+    color: #1c1c1c;
+}
+.top-image-text p{
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2e2e;
+}
+  .section-title1{
+    padding: 50px 0;
+    box-sizing: border-box;
+  }
+  .section-title1 h2{
+    font-weight: 600;
+    color: #1c1c1c;
+  text-align: left;
+  }
+  #hero-border{
+    box-sizing: border-box;
+    padding-left: 40px;
+    border-left: 3px solid #007bff;
+  }
   .hero__item {
     padding: 10px;
+    font-family: "Cairo", sans-serif;
   }
   .hero__item .card {
-    background-size: contain;
-    max-width: 476px;
+    background-size: cover;
+    max-width: 350px;
     width: 100%;
     height: 350px;
+    
   }
   .card .card-body{
     padding: 0px;
   }
   .card .card-body .btn {
-    padding: 8px;
+    padding: 10px 4px;
     font-weight: 600;
-    bottom: 35px;
+    bottom: 0px;
+    font-size: 14px;
   }
   .card .card-body p {
     width: 100%;
