@@ -785,7 +785,7 @@ ol {
 }
 .section-title1 h2{
   font-weight: 600;
-  color: #1c1c1c;
+  color: #007bff;
   text-align: right;
 }
 .hero__item {
@@ -3857,8 +3857,8 @@ ol {
   }
   .section-title1 h2{
     font-weight: 600;
-    color: #1c1c1c;
-  text-align: left;
+    color: #007bff;
+    text-align: left;
   }
   #hero-border{
     box-sizing: border-box;
