@@ -2433,8 +2433,12 @@ ol {
 
 .blog__item {
   margin-bottom: 60px;
+  transition: all 0.5s;
+  cursor: pointer;
 }
-
+.blog__item:hover{
+  transform: scale(1.1);
+}
 .blog__item__pic img {
   min-width: 100%;
 }
