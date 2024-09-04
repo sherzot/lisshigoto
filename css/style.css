@@ -768,7 +768,7 @@ ol {
 }
 .top-image-text{
   display: block;
-  width: 550px;
+  width: 600px;
   height: auto;
   margin: auto;
   position: absolute;
@@ -777,11 +777,12 @@ ol {
   font-weight: 800;
 }
 .top-ih5{
-  font-size: 32px;
-  color: #007bff;
-  padding: 30px 100px;
-  font-weight: 600;
+  font-size: 44px;
+  color: #EB0202;
+  padding: 30px 50px;
+  font-weight: 900;
   font-family: 'Times New Roman', Times, serif;
+  border-left: 5px solid #007bff;
 }
 .top-image-text p{
   font-size: 44px;
@@ -3191,6 +3192,24 @@ ol {
 /* Tablet Device = 768px */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .top-image-text{
+    display: block;
+    width: 360px;
+  }
+  .top-ih5{
+    font-size: 42px;
+    color: #EB0202;
+    margin-top: 30px;
+    padding: 0px 20px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+.top-image-text p{
+  font-size: 32px;
+}
+  .top-image-text p span:nth-child(4){
+    font-size: 36px;
+  }
   .hero__categories {
     margin-bottom: 30px;
   }
@@ -3439,7 +3458,24 @@ ol {
   .header__cart {
     display: none;
   }
-
+  .top-image-text{
+    display: block;
+    width: 360px;
+  }
+  .top-ih5{
+    font-size: 42px;
+    color: #EB0202;
+    margin-top: 30px;
+    padding: 0px 20px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+.top-image-text p{
+  font-size: 32px;
+}
+  .top-image-text p span:nth-child(4){
+    font-size: 36px;
+  }
   .hero__categories {
     margin-bottom: 30px;
   }
@@ -3465,7 +3501,7 @@ ol {
     padding: 5px;
   }
   .card .card-body .btn{
-    bottom: 40px;
+    bottom: 0px;
   }
   .card .card-body p {
     width: 100%;
@@ -3767,7 +3803,7 @@ ol {
 
 /* Small Device = 320px */
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 650px) {
   .header{
     padding: 0px;
     height: 70px;
@@ -3870,7 +3906,6 @@ ol {
     background: url('../images/header-top4.png') no-repeat;
     background-size: 100%;
     position: relative;
-    /* border-right: 5px solid #007bff; */
   }
   .top-image-text{
     display: block;
@@ -3886,9 +3921,10 @@ ol {
     line-height: 2;
   }
   .top-ih5{
-    font-size: 24px;
-    color: #007bff;
-    padding: 30px 40px;
+    font-size: 32px;
+    color: #EB0202;
+    margin-top: 30px;
+    padding: 0px 20px;
     font-weight: 600;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -3901,6 +3937,9 @@ ol {
   font-family: 'Times New Roman', Times, serif;
 
 }
+  .top-image-text p span:nth-child(4){
+    font-size: 36px;
+  }
   .section-title1{
     width: 100%;
     padding: 50px 0;
