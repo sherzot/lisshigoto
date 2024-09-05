@@ -421,10 +421,16 @@ ol {
   box-sizing: border-box;
   padding: 30px 0 40px 10px;
 }
-
+.logo-hed{
+  display: flex;
+  justify-content: space-between;
+}
 .logo-hed img{
   width: 180px;
   height: 70px;
+}
+.logo-hed .P-mark img{
+  display: none;
 }
 .logo-hed p{
   font-size: 24px;
@@ -4111,7 +4117,6 @@ ol {
     padding: 0 20px;
   }
   #border0{
-    padding: 20px;
     box-sizing: border-box;
   }
   #border-box0{
@@ -4354,6 +4359,9 @@ ol {
   }
 }
 @media only screen and (max-width: 510px){
+  .hero{
+    padding-top: 0;
+  }
   .header__logo {
     display: block;
     justify-content: center;
@@ -4362,6 +4370,10 @@ ol {
     width: 180px;
     height: 70px;
     padding-bottom: 15px;
+    padding-top: 0;
+  }
+  .logo-hed .P-mark img{
+    display: block;
   }
   .top-ih5{
     font-size: 24px;
