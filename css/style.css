@@ -31,12 +31,11 @@
 
 html,
 body {
+  width: 100%;
   height: 100%;
   font-family: 'Times New Roman', Times, serif;
-  font-weight: 400;
-  font-style: normal;
   -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
   box-sizing: border-box;
 }
 
@@ -425,7 +424,18 @@ ol {
 
 .logo-hed img{
   width: 180px;
-  height: 80px;
+  height: 70px;
+}
+.logo-hed p{
+  font-size: 24px;
+  line-height: 70px;
+  background-color: #3bc032c4;
+  color: #000;
+  padding: 0 15px;
+  font-weight: 500;
+  border-top-left-radius: 50px; /* Yuqori o'ng burchak */
+    border-bottom-right-radius: 50px; /* Pastki o'ng burchak */
+    border-bottom-left-radius: 0; /* Pastki chap burchak */
 }
 .header__menu {
   padding: 10px 0;
@@ -572,13 +582,14 @@ ol {
   Hero
 -----------------------*/
 .hero {
+  padding: 0 120px;
   margin: auto;
   align-items: center;
   max-width: 1920px;
   width: 100%;
-  padding-bottom: 0px;
-  background: url('../images/banner1.png') no-repeat center;
-  background-size: cover;
+  height: auto;
+  background: url('../images/top-hed.png') no-repeat center;
+  background-size: contain;
 }
 
 .hero.hero-normal {
@@ -760,35 +771,70 @@ ol {
 }
 .top-image{
   width: 100%;
-  height: 550px;
-  background: url('../images/header-top4.png') no-repeat center;
-  background-size: 100%;
+  height: 400px;
+  background-size: contain;
   position: relative;
-  -webkit-box-reflect: none linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
 }
 .top-image-text{
   display: block;
-  width: 600px;
+  width: 700px;
   height: auto;
   margin: auto;
   position: absolute;
-  top: 100px;
-  right: 10px;
+  top: auto;
   font-weight: 800;
 }
 .top-ih5{
-  font-size: 44px;
+  align-items: center;
+  font-size: 38px;
   color: #EB0202;
-  padding: 30px 50px;
+  padding: 10px 50px;
+  margin: 0 0 30px 0;
+  box-sizing: border-box;
   font-weight: 900;
   font-family: 'Times New Roman', Times, serif;
   border-left: 5px solid #007bff;
 }
+.top-ih5 span{
+  color: #007bff;
+}
+.top-ih5 span:nth-child(2){
+  color: #3cc032;
+  padding: 0 20px;
+}
 .top-image-text p{
-  font-size: 44px;
-  line-height: 2;
+  font-size: 50px;
+  line-height: 0.9;
   color: #1c1c1c;
   font-weight: 600;
+}
+.top-image-text span{
+  font-size: 36px;
+}
+.top-image-text a{
+  width: 60%;
+  display: block;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 0.5;
+  font-weight: 700;
+  color: #fff;
+  background-color: #007bff;
+  padding: 16px 20px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: monospace;
+}
+.icon-btn i{
+  color: #f9cc01;
+  padding-left: 80px;
+  font-size: 30px;
+}
+.blog__item__pic1 img{
+  width: 450px;
+  height: auto;
+  padding-left: 100px;
 }
 .section-title1{
   padding: 0;
@@ -824,11 +870,11 @@ ol {
 #border-box4{
   border-right: 5px solid #007bff;
 }
-#hero-border{
+/* #hero-border{
   box-sizing: border-box;
   padding-left: 10px;
   border-right: 5px solid #007bff;
-}
+} */
 .hero__item {
   width: 100%;
   height: auto;
@@ -865,14 +911,6 @@ ol {
   position: relative;
   box-sizing: border-box;
 }
-/* .card .card-body p {
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  background-color: #edbd0eb5;
-  padding: 5px;
-  font-weight: 400;
-} */
 .card .card-body .card-title,
 .card-text {
   color: #000;
@@ -1257,7 +1295,7 @@ ol {
 }
 
 .from-blog__title {
-  margin-bottom: 70px;
+  margin-bottom: 30px;
 }
 
 /*---------------------
@@ -3150,19 +3188,165 @@ ol {
 }
 
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
+@media only screen and (max-width: 1600px){
+  .top-ih5{
+    font-size: 36px;
+    padding: 10px 20px;
+  }
+  .top-ih5 span{
+    color: #007bff;
+  }
+  .top-ih5 span:nth-child(2){
+    color: #3cc032;
+    padding: 0 20px;
+  }
 
+  .blog__item__pic1 img{
+    width: 300px;
+    padding-left: 0px;
+  }
+  .top-image-text{
+    width: 500px;
+    font-weight: 500;
+  }
+  .top-image-text span{
+    font-size: 22px;
+  }
+  .top-image-text a{
+    width: 85%;
+    font-size: 20px;
+    font-weight: 600;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: monospace;
+  }
+}
 @media only screen and (max-width: 1200px) {
   .container {
-    max-width: 1170px;
+    max-width: 1199px;
+  }
+  .hero {
+    padding: 0 80px;
+    background: url('../images/top-hed.png') no-repeat center;
+    background-size: contain;
   }
   .hero__categories ul li a {
     font-size: 14px;
+  }
+  .top-ih5{
+    font-size: 28px;
+    padding: 10px 20px;
+  }
+  .top-ih5 span{
+    color: #007bff;
+  }
+  .top-ih5 span:nth-child(2){
+    color: #3cc032;
+    padding: 0 20px;
+  }
+  .top-image{
+    width: 100%;
+    height: 200px;
+    background-size: contain;
+    position: relative;
+  }
+  .top-image-text{
+    width: 400px;
+    font-weight: 500;
+  }
+  .top-image-text p{
+    width: 85%;
+    font-size: 38px;
+    line-height: 0.9;
+    color: #1c1c1c;
+    font-weight: 600;
+  }
+  .top-image-text span{
+    font-size: 24px;
+  }
+  .top-image-text a{
+    width: 80%;
+    font-size: 20px;
+    font-weight: 600;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: monospace;
+  }
+  .icon-btn i{
+    color: #f9cc01;
+    padding-left: 5px;
+    font-size: 30px;
+  }
+  .blog__item__pic1 img{
+    width: 300px;
+    padding-left: 0px;
   }
 }
 
 /* Medium Device = 1200px */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .logo-hed p{
+    font-size: 16px;
+    line-height: 70px;
+    background-color: #3bc032c4;
+    color: #000;
+    padding: 0 15px;
+    font-weight: 500;
+    border-top-left-radius: 50px; /* Yuqori o'ng burchak */
+      border-bottom-right-radius: 50px; /* Pastki o'ng burchak */
+      border-bottom-left-radius: 0; /* Pastki chap burchak */
+  }
+  .hero {
+    padding: 0 40px;
+    background: url('../images/top-hed.png') no-repeat center;
+    background-size: contain;
+  }
+  .hero__categories ul li a {
+    font-size: 14px;
+  }
+  .top-ih5{
+    font-size: 28px;
+    padding: 10px 20px;
+  }
+  .top-ih5 span{
+    color: #007bff;
+  }
+  .top-ih5 span:nth-child(2){
+    color: #3cc032;
+    padding: 0 20px;
+  }
+  .top-image-text{
+    width: 400px;
+    font-weight: 500;
+  }
+  .top-image-text p{
+    width: 85%;
+    font-size: 38px;
+    line-height: 0.9;
+    color: #1c1c1c;
+    font-weight: 600;
+  }
+  .top-image-text span{
+    font-size: 24px;
+  }
+  .top-image-text a{
+    width: 80%;
+    font-size: 20px;
+    font-weight: 600;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: monospace;
+  }
+  .icon-btn i{
+    color: #f9cc01;
+    padding-left: 5px;
+    font-size: 30px;
+  }
+  .blog__item__pic1 img{
+    width: 300px;
+    padding-left: 0px;
+  }
   .header__menu ul li {
     margin-right: 45px;
   }
@@ -3192,23 +3376,56 @@ ol {
 /* Tablet Device = 768px */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .top-image-text{
-    display: block;
-    width: 360px;
+  .logo-hed p{
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .hero {
+    padding: 0 40px;
+    background: url('../images/top-hed.png') no-repeat center;
+    background-size: contain;
+  }
+  .hero__categories ul li a {
+    font-size: 14px;
   }
   .top-ih5{
-    font-size: 42px;
-    color: #EB0202;
-    margin-top: 30px;
-    padding: 0px 20px;
+    font-size: 24px;
+    padding: 10px 20px;
+  }
+  .top-ih5 span{
+    color: #007bff;
+  }
+  .top-ih5 span:nth-child(2){
+    color: #3cc032;
+    padding: 0 20px;
+  }
+  .top-image-text{
+    width: 400px;
+    font-weight: 500;
+  }
+  .top-image-text p{
+    width: 85%;
+    font-size: 32px;
+    line-height: 0.9;
+    color: #1c1c1c;
     font-weight: 600;
-    font-family: 'Times New Roman', Times, serif;
-}
-.top-image-text p{
-  font-size: 32px;
-}
-  .top-image-text p span:nth-child(4){
-    font-size: 36px;
+  }
+  .top-image-text span{
+    font-size: 21px;
+  }
+  .top-image-text a{
+    width: 60%;
+    font-size: 16px;
+    padding: 15px 10px;
+  }
+  .icon-btn i{
+    color: #f9cc01;
+    padding-left: 5px;
+    font-size: 20px;
+  }
+  .blog__item__pic1 img{
+    width: 200px;
+    padding-left: 0px;
   }
   .hero__categories {
     margin-bottom: 30px;
@@ -3455,26 +3672,79 @@ ol {
 /* Wide Mobile = 480px */
 
 @media only screen and (max-width: 767px) {
-  .header__cart {
-    display: none;
+  .header__logo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 20px 0 10px 5px;
   }
-  .top-image-text{
-    display: block;
-    width: 360px;
+  .logo-hed img{
+    width: 100px;
+    height: 45px;
+  }
+  .logo-hed p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 40px;
+  }
+  .hero {
+    padding: 0 20px;
+    background: url('../images/top-hed.png') no-repeat center;
+    background-size: 90%;
+  }
+  .hero__categories ul li a {
+    font-size: 14px;
   }
   .top-ih5{
-    font-size: 42px;
-    color: #EB0202;
-    margin-top: 30px;
-    padding: 0px 20px;
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 0 0 20px 0;
+  }
+  .top-ih5 span{
+    color: #007bff;
+  }
+  .top-ih5 span:nth-child(2){
+    color: #3cc032;
+    padding: 0 20px;
+  }
+  .top-image{
+    width: 100%;
+    height: 200px;
+    background-size: contain;
+    position: relative;
+  }
+  .top-image-text{
+    width: 400px;
+    font-weight: 500;
+  }
+  .top-image-text p{
+    width: 75%;
+    font-size: 24px;
+    line-height: 0.9;
+    color: #1c1c1c;
     font-weight: 600;
-    font-family: 'Times New Roman', Times, serif;
-}
-.top-image-text p{
-  font-size: 32px;
-}
-  .top-image-text p span:nth-child(4){
-    font-size: 36px;
+  }
+  .top-image-text span{
+    font-size: 16px;
+  }
+  .top-image-text a{
+    width: 50%;
+    font-size: 13px;
+    padding: 15px 10px;
+  }
+  .icon-btn i{
+    color: #f9cc01;
+    padding-left: 5px;
+    font-size: 20px;
+  }
+  .blog__item__pic1 img{
+    width: 200px;
+    padding-left: 0px;
+  }
+  .header__cart {
+    display: none;
   }
   .hero__categories {
     margin-bottom: 30px;
@@ -3803,7 +4073,87 @@ ol {
 
 /* Small Device = 320px */
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 600px) {
+  .header__logo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 5px 0 10px 5px;
+  }
+  .logo-hed img{
+    width: 150px;
+    height: 70px;
+  }
+  .logo-hed p{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 40px;
+  }
+  .hero {
+    padding: 0 10px;
+    background: none;
+  }
+  .hero__categories ul li a {
+    font-size: 14px;
+  }
+  .top-ih5{
+    font-size: 34px;
+    padding: 10px 20px;
+    margin: 0 0 20px 0;
+  }
+  .top-ih5 span{
+    color: #007bff;
+  }
+  .top-ih5 span:nth-child(2){
+    color: #3cc032;
+    padding: 0 20px;
+  }
+  #border0{
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  #border-box0{
+    padding: 20px;
+    border-right: #007bff solid 5px;
+  }
+  .top-image{
+    width: 100%;
+    height: 200px;
+    background-size: contain;
+    position: relative;
+  }
+  .top-image-text{
+    width: 100%;
+    font-weight: 700;
+    
+  }
+  .blog__item__pic1 img{
+    width: 400px;
+    padding-left: 70px;
+  }
+  .top-image-text p{
+    width: 100%;
+    font-size: 38px;
+    line-height: 0.9;
+    color: #1c1c1c;
+    font-weight: 600;
+  }
+  .top-image-text span{
+    font-size: 24px;
+  }
+  .top-image-text a{
+    width: 80%;
+    font-size: 18px;
+    padding: 15px 10px;
+  }
+  .icon-btn i{
+    color: #f9cc01;
+    padding-left: 65px;
+    font-size: 40px;
+  }
+  
   .header{
     padding: 0px;
     height: 70px;
@@ -3834,6 +4184,9 @@ ol {
   .logo-hed img{
     width: 100px;
     height: auto;
+  }
+  .hero{
+    padding: 0 20px;
   }
   .hero__categories__all {
     margin: auto;
@@ -3898,58 +4251,6 @@ ol {
   .hero__categories ul{
     width: 320px;
   }
-  .top-image{
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    height: 250px;
-    background: url('../images/header-top4.png') no-repeat;
-    background-size: 100%;
-    position: relative;
-  }
-  .top-image-text{
-    display: block;
-    width: 220px;
-    height: auto;
-    margin: auto;
-    position: absolute;
-    top: 50px;
-    right: 0;
-    box-sizing: border-box;
-    padding: 5px;
-    font-weight: 500;
-    line-height: 2;
-  }
-  .top-ih5{
-    font-size: 32px;
-    color: #EB0202;
-    margin-top: 30px;
-    padding: 0px 20px;
-    font-weight: 600;
-    font-family: 'Times New Roman', Times, serif;
-}
-.top-image-text p{
-  box-sizing: border-box;
-  margin: 0px;
-  font-size: 20px;
-  line-height: 2;
-  color: #2e2e2e;
-  font-family: 'Times New Roman', Times, serif;
-
-}
-  .top-image-text p span:nth-child(4){
-    font-size: 36px;
-  }
-  .section-title1{
-    width: 100%;
-    padding: 50px 0;
-    box-sizing: border-box;
-  }
-  .section-title1 h2{
-    font-weight: 700;
-    color: #007bff;
-    text-align: left;
-  }
   #border1{
     padding-left: 20px;
   }
@@ -3974,11 +4275,11 @@ ol {
   #border-box4{
     border-right: 5px solid #007bff;
   }
-  #hero-border{
+  /* #hero-border{
     box-sizing: border-box;
     padding-left: 10px;
     border-right: 5px solid #007bff;
-  }
+  } */
   .hero__item {
     padding: 10px;
     font-family: "Cairo", sans-serif;
@@ -4052,7 +4353,59 @@ ol {
     text-decoration: none;
   }
 }
+@media only screen and (max-width: 510px){
+  .header__logo {
+    display: block;
+    justify-content: center;
+  }
+  .logo-hed img{
+    width: 180px;
+    height: 70px;
+    padding-bottom: 15px;
+  }
+  .top-ih5{
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 0 0 20px 0;
+  }
+  .top-ih5 span{
+    color: #007bff;
+  }
+  .top-ih5 span:nth-child(2){
+    color: #3cc032;
+    padding: 0 20px;
+  }
+  .blog__item__pic1 img{
+    width: 400px;
+    padding-left: 30px;
+  }
+  .top-image-text p{
+    width: 100%;
+    font-size: 38px;
+    line-height: 0.9;
+    color: #1c1c1c;
+    font-weight: 600;
+  }
+  .top-image-text span{
+    font-size: 24px;
+  }
+  .top-image-text a{
+    width: 90%;
+    font-size: 18px;
+    padding: 15px 10px;
+  }
+  .icon-btn i{
+    color: #f9cc01;
+    padding-left: 55px;
+    font-size: 30px;
+  }
+}
 @media only screen and (max-width: 380px){
+  .top-ih5{
+    font-size: 22px;
+    padding: 10px 10px;
+    margin: 0 0 20px 0;
+  }
   .card .card-body .btn {
     bottom: 60px;
   }
