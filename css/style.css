@@ -423,7 +423,7 @@ ol {
 }
 .logo-hed{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .logo-hed img{
   width: 180px;
@@ -4374,6 +4374,7 @@ ol {
   }
   .logo-hed .P-mark img{
     display: block;
+    padding-left: 40px;
   }
   .top-ih5{
     font-size: 24px;
