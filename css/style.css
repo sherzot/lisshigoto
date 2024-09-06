@@ -594,8 +594,8 @@ ol {
   max-width: 1920px;
   width: 100%;
   height: auto;
-  background: url('../images/top-hed.png') no-repeat center;
-  background-size: contain;
+  background: url('../images/top-hed2.png') no-repeat center;
+  background-size: 80%;
 }
 
 .hero.hero-normal {
@@ -660,7 +660,10 @@ ol {
 .hero__categories {
  padding: 50px 300px;
 }
-
+.hero__categories img{
+  border-left: #007bff solid 5px;
+  padding: 0 20px;
+}
 .hero__categories ul li {
   list-style: none;
 }
@@ -852,13 +855,14 @@ ol {
   position: absolute;
   right: 350px;
   top: 100px;
-  width: 100px;
+  width: 150px;
 }
 #border0{
   position: relative;
 }
 #border1{
   padding-left: 20px;
+  padding-bottom: 50px;
 }
 #border-box1{
   border-left: 5px solid #007bff;
@@ -3247,7 +3251,6 @@ ol {
   }
   .hero {
     padding: 0 80px;
-    background: url('../images/top-hed.png') no-repeat center;
     background-size: contain;
   }
   .hero__categories ul li a {
@@ -3325,7 +3328,6 @@ ol {
   }
   .hero {
     padding: 0 40px;
-    background: url('../images/top-hed.png') no-repeat center;
     background-size: contain;
   }
   .hero__categories ul li a {
@@ -3414,8 +3416,7 @@ ol {
   }
   .hero {
     padding: 0 40px;
-    background: url('../images/top-hed.png') no-repeat center;
-    background-size: contain;
+    background-size: 90%;
   }
   .hero__categories ul li a {
     font-size: 14px;
@@ -3732,7 +3733,7 @@ ol {
   }
   .hero {
     padding: 0 20px;
-    background: url('../images/top-hed.png') no-repeat center;
+    background: url('../images/top-hed2.png') no-repeat center;
     background-size: 90%;
   }
   .hero__categories ul li a {
@@ -4113,8 +4114,8 @@ ol {
   .logo-text-top{
     position: absolute;
     right: 100px;
-    top: 70px;
-    width: 100px;
+    top: 60px;
+    width: 70px;
   }
 }
 
