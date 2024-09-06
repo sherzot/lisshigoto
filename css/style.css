@@ -657,12 +657,8 @@ ol {
   color: #ffffff;
 }
 
-.hero__categories ul {
-  margin: auto;
-  align-items: center;
-  width: 1100px;
-  border: 1px solid #ebebeb;
-  padding: 5px;
+.hero__categories {
+ padding: 50px 300px;
 }
 
 .hero__categories ul li {
@@ -851,6 +847,15 @@ ol {
   color: #007bff;
   text-align: right;
   font-size: 38px;
+}
+.logo-text-top{
+  position: absolute;
+  right: 350px;
+  top: 100px;
+  width: 100px;
+}
+#border0{
+  position: relative;
 }
 #border1{
   padding-left: 20px;
@@ -3226,6 +3231,15 @@ ol {
     border-radius: 10px;
     font-family: monospace;
   }
+  .logo-text-top{
+    position: absolute;
+    right: 200px;
+    top: 100px;
+    width: 100px;
+  }
+  .hero__categories {
+    padding: 50px 50px;
+   }
 }
 @media only screen and (max-width: 1200px) {
   .container {
@@ -3286,6 +3300,12 @@ ol {
   .blog__item__pic1 img{
     width: 300px;
     padding-left: 0px;
+  }
+  .logo-text-top{
+    position: absolute;
+    right: 150px;
+    top: 100px;
+    width: 100px;
   }
 }
 
@@ -3376,6 +3396,12 @@ ol {
   }
   .shoping__discount form input {
     width: 240px;
+  }
+  .logo-text-top{
+    position: absolute;
+    right: 100px;
+    top: 110px;
+    width: 130px;
   }
 }
 
@@ -3673,6 +3699,15 @@ ol {
   .faq #accordion{
     width: 100%;
   }
+  .logo-text-top{
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    width: 100px;
+  }
+  .hero__categories {
+    padding: 10px 10px;
+   }
 }
 
 /* Wide Mobile = 480px */
@@ -4075,6 +4110,12 @@ ol {
   .faq #accordion{
     width: 100%;
   }
+  .logo-text-top{
+    position: absolute;
+    right: 100px;
+    top: 70px;
+    width: 100px;
+  }
 }
 
 /* Small Device = 320px */
@@ -4357,6 +4398,15 @@ ol {
     color: #fff;
     text-decoration: none;
   }
+  .logo-text-top{
+    position: absolute;
+    right: 100px;
+    top: 60px;
+    width: 60px;
+  }
+  .hero__categories {
+    padding: 0px;
+   }
 }
 @media only screen and (max-width: 510px){
   .hero{
@@ -4411,6 +4461,9 @@ ol {
     color: #f9cc01;
     padding-left: 55px;
     font-size: 30px;
+  }
+  .logo-text-top{
+    display: none;
   }
 }
 @media only screen and (max-width: 380px){
