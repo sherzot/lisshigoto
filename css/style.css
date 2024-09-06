@@ -435,8 +435,8 @@ ol {
 .logo-hed p{
   font-size: 24px;
   line-height: 70px;
-  background-color: #3bc032c4;
-  color: #000;
+  background-color: #4d9ab7;
+  color: #fff;
   padding: 0 15px;
   font-weight: 500;
   border-top-left-radius: 50px; /* Yuqori o'ng burchak */
@@ -594,7 +594,7 @@ ol {
   max-width: 1920px;
   width: 100%;
   height: auto;
-  background: url('../images/top-hed4.svg') no-repeat center;
+  background: url('../images/top-hed5.png') no-repeat center;
   background-size: 80%;
 }
 
@@ -783,10 +783,10 @@ ol {
 .top-image-text{
   display: block;
   width: 700px;
-  height: auto;
+  height: 400px;
   margin: auto;
   position: absolute;
-  top: auto;
+  top: 0;
   font-weight: 800;
 }
 .top-ih5{
@@ -794,7 +794,7 @@ ol {
   font-size: 38px;
   color: #EB0202;
   padding: 10px 50px;
-  margin: 0 0 30px 0;
+  margin: 0 0 300px 0;
   box-sizing: border-box;
   font-weight: 900;
   font-family: 'Times New Roman', Times, serif;
@@ -836,6 +836,9 @@ ol {
   padding-left: 80px;
   font-size: 30px;
 }
+.blog__item__pic1{
+  display: none;
+}
 .blog__item__pic1 img{
   width: 450px;
   height: auto;
@@ -855,9 +858,10 @@ ol {
   position: absolute;
   right: 350px;
   top: 100px;
-  width: 150px;
+  width: 100px;
 }
-#border0{
+
+#border-box0{
   position: relative;
 }
 #border1{
@@ -3318,7 +3322,7 @@ ol {
   .logo-hed p{
     font-size: 16px;
     line-height: 70px;
-    background-color: #3bc032c4;
+    background-color: #4d9ab7;
     color: #000;
     padding: 0 15px;
     font-weight: 500;
@@ -3402,8 +3406,8 @@ ol {
   .logo-text-top{
     position: absolute;
     right: 100px;
-    top: 110px;
-    width: 130px;
+    top: 100px;
+    width: 100px;
   }
 }
 
@@ -3733,16 +3737,16 @@ ol {
   }
   .hero {
     padding: 0 20px;
-    background: url('../images/top-hed2.png') no-repeat center;
+    height: 400px;
     background-size: 90%;
   }
   .hero__categories ul li a {
     font-size: 14px;
   }
   .top-ih5{
-    font-size: 24px;
-    padding: 10px 20px;
-    margin: 0 0 20px 0;
+    font-size: 22px;
+    padding: 10px;
+    margin: 0 0 100px 0;
   }
   .top-ih5 span{
     color: #007bff;
@@ -4113,7 +4117,7 @@ ol {
   }
   .logo-text-top{
     position: absolute;
-    right: 100px;
+    right: 150px;
     top: 60px;
     width: 70px;
   }
@@ -4146,6 +4150,9 @@ ol {
   .hero__categories ul li a {
     font-size: 14px;
   }
+  .hero__categories img{
+    margin-top: 150px;
+  }
   .top-ih5{
     font-size: 34px;
     padding: 10px 20px;
@@ -4173,12 +4180,16 @@ ol {
   }
   .top-image-text{
     width: 100%;
+    height: 400px;
     font-weight: 700;
     
   }
+  .blog__item__pic1{
+    display: block;
+  }
   .blog__item__pic1 img{
     width: 400px;
-    padding-left: 70px;
+
   }
   .top-image-text p{
     width: 100%;
@@ -4412,6 +4423,9 @@ ol {
 @media only screen and (max-width: 510px){
   .hero{
     padding-top: 0;
+  }
+  .hero__categories img{
+    margin-top: 360px;
   }
   .header__logo {
     display: block;
