@@ -664,6 +664,13 @@ ol {
   border-left: #007bff solid 5px;
   padding: 0 20px;
 }
+.hero__categories2 {
+  padding: 50px 130px;
+}
+.hero__categories2 img {
+  border-left: #007bff solid 5px;
+  padding: 0 20px;
+}
 .hero__categories ul li {
   list-style: none;
 }
@@ -3795,6 +3802,12 @@ ol {
   .hero__categories {
     margin-bottom: 30px;
   }
+    .hero__categories2 {
+      padding: 0px 5px;
+    }
+        .hero__categories2 img{
+          padding: 0px 20px;
+        }
   .hero__categories__all {
     margin: auto;
     align-items: center;
